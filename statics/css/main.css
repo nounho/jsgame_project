@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'OnePickFont';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin:0px;
+    font-family: 'OnePickFont';
+    background-color:white;
+}
+div.title{
+    font-size:64px;
+    text-align:center;
+    font-style:italic;
+    margin:30px;
+}
+
+.side_logo{
+}
+
+.mainbox{
+    text-align:center;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.game{
+    margin: auto;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
